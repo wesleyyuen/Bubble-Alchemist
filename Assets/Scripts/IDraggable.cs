@@ -1,3 +1,4 @@
+using UnityEngine;
 using UnityEngine.EventSystems;
 
 public interface IDraggable : IBeginDragHandler, IDragHandler, IEndDragHandler, IButton
