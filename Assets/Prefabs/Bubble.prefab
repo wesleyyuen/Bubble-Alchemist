@@ -125,7 +125,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca80cac78f8a49cf828910ec6889fac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _dragFailedTweenSettings:
+    duration: 0.45
+    ease: 12
+    customEase:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    cycles: 1
+    cycleMode: 0
+    startDelay: 0
+    endDelay: 0
+    useUnscaledTime: 0
+    useFixedUpdate: 0
   _rect: {fileID: 6496540401220051089}
+  _toggleRaycast: {fileID: 828150789933542945}
 --- !u!114 &828150789933542945
 MonoBehaviour:
   m_ObjectHideFlags: 0
